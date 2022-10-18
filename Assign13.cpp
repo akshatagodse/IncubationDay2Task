@@ -16,6 +16,6 @@ int main()
     cout << "Enter length : ";
     cin >> length;
 
-    string str2 = str.substr(position,length);
+    string str2 = str.substr(position-1,length);
     cout << str2;
 }
